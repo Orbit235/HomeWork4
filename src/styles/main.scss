@@ -1,0 +1,47 @@
+@import "null.scss";
+body {
+    background-color: white
+}
+header
+ {
+    background-color: rgba(178, 25, 79, 0.347);
+}
+   
+   .header-text { h1 {
+    font-size: 74px;
+    margin-bottom: 20px;
+}
+   p {
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+    font-family: 'Rubik Distressed', cursive;
+    text-align: center;
+    color: rgb(20, 2, 2);
+    }
+    
+    .header-axis { .header-img {
+        display: block;
+        margin: 0 auto;
+        
+        
+    }
+        width: 100%;
+    }
+    .main {
+        color: aliceblue;
+        background-color: black;
+        
+    }
+        .result-table { th {
+            border: dotted;
+            padding: 30px;
+        }
+        border: solid;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+
+   
+
