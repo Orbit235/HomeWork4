@@ -79,10 +79,6 @@ header {
     display: block;
     margin: 0 auto; }
 
-.main {
-  color: aliceblue;
-  background-color: black; }
-
 .result-table {
   border: solid;
   margin-left: auto;

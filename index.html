@@ -22,20 +22,21 @@
         </div>
     </header>
     <section class="main">
-        <form id="first-form" method="post" action="">
-            <div>
-              <label for="x">X:</label>
-              <input type="text" id="x" name="x"></input>
-            </div>
+        <form id="first-form">
+            <label for="x">X:</label>
+              <input class="js-input" type="text" id="x" name="x"></input> <br>
+              <input class="submit" type="submit" value="Submit">
+            </form>
             <div>
                 <label for="y">Y:</label>
-                <input type="text" id="y" name="y"></input>
+                <input class="js-input" type="text" id="y" name="y"></input>
               </div>
               <div>
                 <label for="r">R:</label>
-                <input type="radio" id="r" name="r"></input>
-              </div>
-              <div class="column-result-table">
+                <input class="js-input js-input-radio" type="radio" id="r" name="r"></input>
+              </div>              
+              <div id="log"></div>
+              
               <table class="result-table">
                 <tr>
                     <th>X</th>
@@ -53,6 +54,8 @@
               </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script> src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"</script>
+    <script> src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"</script>    
     <script src="js/main.js"></script>
     
 </body>
