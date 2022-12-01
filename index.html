@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="public/styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -24,19 +24,46 @@
     <section class="main">
         <form id="first-form">
             <label for="x">X:</label>
-              <input class="js-input" type="text" id="x" name="x"></input> <br>
-              <input class="submit" type="submit" value="Submit">
-            </form>
+            <input class="js-input" type="number" id="x" name="x" /> <br>
+            <p class="errorX" style="color: red;"></p>
+            <label for="y">Y:</label>
+            <input class="js-input" type="text" id="y" name="y" />
+
+            <p>R:</p>
+            <div class="radiuses">
+                <label for="r1">-1</label>
+                <input class="js-input js-input-radio" type="radio" id="r1" name="r"/ value="-1">
+
+                <label for="r2">0</label>
+                <input class="js-input js-input-radio" type="radio" id="r2" name="r" value="0"/>
+
+                <label for="r3">1</label>
+                <input class="js-input js-input-radio" type="radio" id="r3" name="r" value="1"/>
+
+                <label for="r4">2</label>
+                <input class="js-input js-input-radio" type="radio" id="r4" name="r" value="2"/>
+
+                <label for="r5">3</label>
+                <input class="js-input js-input-radio" type="radio" id="r5" name="r" value="3"/>
+
+                <label for="r6">4</label>
+                <input class="js-input js-input-radio" type="radio" id="r6" name="r" value="4"/>
+
+            </div>
+
+            <div class="error">
+                <span></span>
+            </div>
+            <button type="submit">
+                Submit
+            </button>
+        </form>
             <div>
-                <label for="y">Y:</label>
-                <input class="js-input" type="text" id="y" name="y"></input>
-              </div>
+                 </div>
               <div>
-                <label for="r">R:</label>
-                <input class="js-input js-input-radio" type="radio" id="r" name="r"></input>
-              </div>              
+               </div>
               <div id="log"></div>
-              
+
               <table class="result-table">
                 <tr>
                     <th>X</th>
@@ -44,19 +71,13 @@
                     <th>R</th>
                     <th>Результат</th>
                 </tr>
-                <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
+
+
             </table>
               </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-    <script> src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"</script>
-    <script> src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"</script>    
     <script src="js/main.js"></script>
-    
+
 </body>
 </html>
