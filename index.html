@@ -27,12 +27,13 @@
             <input class="js-input" type="number" id="x" name="x" /> <br>
             <p class="errorX" style="color: red;"></p>
             <label for="y">Y:</label>
-            <input class="js-input" type="text" id="y" name="y" />
+            <input class="js-input" type="text" id="y" name="y" /> <br>
+            <p class="errorY" style="color: red;"></p>
 
             <p>R:</p>
             <div class="radiuses">
                 <label for="r1">-1</label>
-                <input class="js-input js-input-radio" type="radio" id="r1" name="r"/ value="-1">
+                <input class="js-input js-input-radio" type="radio" id="r1" name="r" value="-1">
 
                 <label for="r2">0</label>
                 <input class="js-input js-input-radio" type="radio" id="r2" name="r" value="0"/>
@@ -58,6 +59,7 @@
                 Submit
             </button>
         </form>
+        
             <div>
                  </div>
               <div>
@@ -71,9 +73,25 @@
                     <th>R</th>
                     <th>Результат</th>
                 </tr>
+            
+                <table class="result-table1">
+                    <tr>
+                        <th>X</th>
+                        <th>Y</th>
+                        <th>R</th>
+                        <th>Результат</th>
+                    </tr>
 
 
             </table>
+            <table class="result-table2">
+                <tr>
+                    <th>X</th>
+                    <th>Y</th>
+                    <th>R</th>
+                    <th>Результат</th>
+                </tr>
+        </table>
               </div>
     </section>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
